@@ -136,6 +136,7 @@ There does appear to be a difference in activity patterns.  On weekdays steps ar
 ## Notes
 
 This section is not relevant to submission.  
+
 By default knitting by RStudio is not writing the figures directory.  Run the code below to force creation.  Note that even then it is not respecting fig.path above.
 
 ```{r manualKnit, eval=FALSE, echo=FALSE}
@@ -143,3 +144,6 @@ library(knitr)
 setwd("~/Education/Coursera - Reproducible Research/RepData_PeerAssessment1")
 knit2html("PA1_template.Rmd")
 ```
+
+To render Github HTML files see:  
+http://htmlpreview.github.io/
